@@ -1,0 +1,7 @@
+analyzer: char
+ngram_range:
+- 2
+- 3
+C: 8.515864014557286
+max_iter: 393
+solver: lbfgs

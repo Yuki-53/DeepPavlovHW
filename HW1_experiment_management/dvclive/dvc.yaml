@@ -1,0 +1,12 @@
+params:
+- params.yaml
+metrics:
+- metrics.json
+plots:
+- plots/metrics:
+    x: step
+artifacts:
+  baseline:
+    path: ../best_model.pkl
+    type: model
+    desc: tfidf+logreg
